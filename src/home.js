@@ -123,7 +123,8 @@ export function CreateHome(){
     content.appendChild(hours);
 
     const adreess = document.createElement("div");
-    adreess.classList.add("adreess","desc");
+    adreess.classList.add("adreess");
+    adreess.classList.add("desc");
 
     const insideDesc2 = document.createElement("div");
     insideDesc2.classList.add("insideDesc");
@@ -133,7 +134,8 @@ export function CreateHome(){
     customer2.innerText = "Location";
 
     const para2 = document.createElement("p");
-    para2.classList.add("para","ala");
+    para2.classList.add("para");
+    para2.classList.add("ala");
     para2.innerText = "123 Forest Drive, Forestville, Maine";
 
     const img6 = new Image();
