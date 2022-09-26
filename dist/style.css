@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('./img/643.png');
+    display: flex;
+    flex-direction: column;
+}
+header{
+    min-height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #FFDE73;
+}
+.list{
+    display: flex;
+    width: 90%;
+    max-width: 480px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.list_child{
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 0.4rem;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: pointer;
+    position: relative;
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home{
+    background-color: #ECA43B;
+}
+.hepic{
+    position: absolute;
+    bottom: -80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.head{
+    background-color: #C16A08;
+    clip-path: polygon( 0 33.3%, 6% 0, 94% 0, 100% 33.3%, 100% 66.6%, 94% 100%, 6% 100%, 0 66.6%);
+    margin: 0 auto;
+    padding: 1rem;
+    width: 80%;
+    position: relative;
+    margin-bottom: 100px;
+}
+.headInfo{
+    /* clip-path: polygon( 0 33.3%, 5% 0, 95% 0, 100% 33.3%, 100% 66.6%, 95% 100%, 5% 100%, 0 66.6%); */
+    clip-path: polygon( 0 33.3%, 6% 0, 94% 0, 100% 33.3%, 100% 66.6%, 94% 100%, 6% 100%, 0 66.6%);
+    background-color: #FFDE73;
+    text-align: center;
+    padding: 1rem;
+}
+.bee{
+    width: 70px;
+    position: absolute;
+    z-index: 1;
+}
+.bee1{
+    width: 70px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    transform: rotateX(180deg);
+}
+.bee2{
+    width: 70px;
+    position: absolute;
+    right: 50px;
+    z-index: 5;
+    bottom: 30px;
+    transform: rotateX(180deg);
+}
+.desc{
+    clip-path: polygon( 0 21%, 11% 0, 89% 0, 100% 21%, 100% 79%, 89% 100%, 11% 100%, 0 79%);
+    background-color: #C16A08;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    position: relative;
+}
+.insideDesc{
+    padding: 2.5rem;
+    clip-path: polygon( 0 20%, 10% 0, 90% 0, 100% 20%, 100% 80%, 90% 100%, 10% 100%, 0 80%);
+    background-color: #FFDE73;
+}
+.customer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.hony{
+    position: absolute;
+    width: 50px;
+    z-index: 5555;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hours{
+    clip-path: polygon( 0 21%, 11% 0, 89% 0, 100% 21%, 100% 79%, 89% 100%, 11% 100%, 0 79%);
+    background-color: #C16A08;
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    position: relative;
+    margin-top: 50px;
+}
+.adreess{
+    margin-top: 50px;
+}
+.ala{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.hoursInside{
+    padding: 2.5rem;
+    clip-path: polygon( 0 20%, 10% 0, 90% 0, 100% 20%, 100% 80%, 90% 100%, 10% 100%, 0 80%);
+    background-color: #FFDE73;
+}
+.hour{
+    list-style: none;
+}
+.hoursDes{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-left: 2rem;
+}
+.listHours{
+    text-align: center;
+}
+.bee3{
+    position: absolute;
+    top: 150px;
+    width: 70px;
+    right: 60px;
+}
+.bee4{
+    position: absolute;
+    bottom: 40px;
+    left: 70px;
+    width: 70px;
+}
+#content{
+    position: relative;
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    background-color: #FFDE73;
+    border-radius: 2rem;
+    padding: 55px;
+}
+footer{
+    background-color: #FFDE73;
+    margin-top: 50px;
+    padding: 2rem 0rem;
+}
+.list_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.link{
+    list-style: none;
+    cursor: pointer;
+}
+.link:hover{
+    color: rgb(83, 24, 110);
+}
