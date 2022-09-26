@@ -122,9 +122,9 @@ export function CreateHome(){
 
     content.appendChild(hours);
 
-    const adreess = document.createElement("div");
-    adreess.classList.add("adreess");
-    adreess.classList.add("desc");
+    const adr = document.createElement("div");
+    adr.classList.add("adreess");
+    adr.classList.add("desc");
 
     const insideDesc2 = document.createElement("div");
     insideDesc2.classList.add("insideDesc");
@@ -146,9 +146,9 @@ export function CreateHome(){
     insideDesc2.appendChild(para2);
     insideDesc2.appendChild(img6);
 
-    adreess.appendChild(insideDesc);
+    adr.appendChild(insideDesc2);
 
-    content.appendChild(adreess);
+    content.appendChild(adr);
 }
 
 {/* <div class="desc adreess">
