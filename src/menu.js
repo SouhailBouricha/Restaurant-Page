@@ -1,20 +1,3 @@
-{/* 
-      <div class="product">
-        <div class="insideProduct">
-          <p class="ProductName">Honey Tea</p>
-          <p class="Productpara">
-            A warm, sweet tea made with the highest quality honey and a bit of
-            lemon to start your day off right!
-          </p>
-          <div class="price" >
-            <div class="priceLabel">$2</div>
-            <div class="imgwrapper">
-              <img class="productImg" src="./img/honeyTea.jpg"/>
-            </div>
-          </div>
-          <img src="./5759589f026baa86e75a.svg" class="bee beex" />
-        </div>
-    </div> */}
 import { content } from './index';
 import beesr from './img/bee.svg';
 import honeycombsr from "./img/honeycomb.svg";
