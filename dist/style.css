@@ -197,6 +197,7 @@ footer{
     margin: 0 auto;
     font-size: 1.3rem;
     position: relative;
+    margin-top: 3rem;
 }
 
 .insideProduct{
@@ -238,4 +239,8 @@ footer{
 }
 .beex{
     bottom: 20px;
+}
+
+.new{
+    margin-top: 3rem;
 }
