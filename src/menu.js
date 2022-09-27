@@ -27,6 +27,9 @@ import frenchToast from "./img/frenchToast.jpg";
 import veggieSandwich from "./img/veggieSandwich.jpg";
 import blt from "./img/blt.jpg";
 import lox from "./img/lox.jpg";
+import honeyComb from "./img/honeyComb.jpg";
+import honeyComb from "./img/honeyComb.jpg";
+import porridge from "./img/porridge.jpg";
 export function CreateMenu(){
     const headmenu = document.createElement('div');
     headmenu.classList.add('head');
@@ -64,7 +67,9 @@ export function CreateMenu(){
     const siventh_product = createProduct("Beary Veggie Sandwich","Do you like vegetables? Then this is the sandwich for you! Stuffed full of a variety of fresh produce, it will fill you up.","$8",veggieSandwich,beesr);
     const ieth_product = createProduct("veggieSandwich","Interested in the Beary Veggie Sandwich but also love bacon? Say no more.","$6",blt,beesr);
     const nineth_product = createProduct("Bagel and Low","Our house specialty, you can't go wrong with a hearty bagel topped with sustainably harvested salmon.","$8",lox,beesr);
-    const tineth_product = createProduct("Bagel and Low","Our house specialty, you can't go wrong with a hearty bagel topped with sustainably harvested salmon.","$8",lox,beesr);
+    const tineth_product = createProduct("Honeycomb","Are you a bear like us? Then you will love our honeycomb. And, yes humans, it is just a piece of honeycomb, not the popular breakfast cereal.","$6",honeyComb,beesr);
+    const eleven_product = createProduct("Beary Bowl","Get a big ole bowl of our berries! Side of honey is $1 extra.","$7",honeyComb,beesr);
+    const towelve_product = createProduct("The Beary Best Porridge","Made by Baby Bear himself, this porridge is guarenteed to be just right, or your money back.","$5",porridge,beesr);
     
     
     content.appendChild(first_product);
@@ -73,6 +78,14 @@ export function CreateMenu(){
     content.appendChild(terth_product);
     content.appendChild(forth_product);
     content.appendChild(menu3);
+    content.appendChild(fifth_product);
+    content.appendChild(sixte_product);
+    content.appendChild(siventh_product);
+    content.appendChild(ieth_product);
+    content.appendChild(nineth_product);
+    content.appendChild(tineth_product);
+    content.appendChild(eleven_product);
+    content.appendChild(towelve_product);
 }
 function createProduct(ProductNameText,ProductparaText,priceLabelText,mainImg,beesr){
     const product = document.createElement('div');
