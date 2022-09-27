@@ -22,6 +22,11 @@ import honeyTea from "./img/honeyTea.jpg";
 import bearyTea from "./img/bearyTea.jpg";
 import toast from "./img/toast.jpg";
 import fruit from "./img/fruit.jpg";
+import pancakes from "./img/pancakes.jpg";
+import frenchToast from "./img/frenchToast.jpg";
+import veggieSandwich from "./img/veggieSandwich.jpg";
+import blt from "./img/blt.jpg";
+import lox from "./img/lox.jpg";
 export function CreateMenu(){
     const headmenu = document.createElement('div');
     headmenu.classList.add('head');
@@ -54,6 +59,12 @@ export function CreateMenu(){
     const seconde_product = createProduct("Beary Tea","A comforting, almost filling, tea that is infused with the flavors of several kinds of berries. Best served cold, but can be served hot on request.","$3",bearyTea,beesr);
     const terth_product = createProduct("Toast and Jam","A slice of toast, your choice of bread, and our homemade blackberry or raspberry jam.","$1",toast,beesr);
     const forth_product = createProduct("Fresh Fruit","A small bowl of fresh fruit, whatever we find at the market for the day.","$3",fruit,beesr);
+    const fifth_product = createProduct("Pancakes","A stack of homemade buttermilk pancakes, served with our locally sourced maple syrup.","$4",pancakes,beesr);
+    const sixte_product = createProduct("French Toast","Two slices of the best french toast you will ever eat, served with our locally sourced maple syrup.","$5",frenchToast,beesr);
+    const siventh_product = createProduct("Beary Veggie Sandwich","Do you like vegetables? Then this is the sandwich for you! Stuffed full of a variety of fresh produce, it will fill you up.","$8",veggieSandwich,beesr);
+    const ieth_product = createProduct("veggieSandwich","Interested in the Beary Veggie Sandwich but also love bacon? Say no more.","$6",blt,beesr);
+    const nineth_product = createProduct("Bagel and Low","Our house specialty, you can't go wrong with a hearty bagel topped with sustainably harvested salmon.","$8",lox,beesr);
+    const tineth_product = createProduct("Bagel and Low","Our house specialty, you can't go wrong with a hearty bagel topped with sustainably harvested salmon.","$8",lox,beesr);
     
     
     content.appendChild(first_product);
