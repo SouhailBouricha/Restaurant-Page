@@ -28,7 +28,6 @@ import veggieSandwich from "./img/veggieSandwich.jpg";
 import blt from "./img/blt.jpg";
 import lox from "./img/lox.jpg";
 import honeyComb from "./img/honeyComb.jpg";
-import honeyComb from "./img/honeyComb.jpg";
 import porridge from "./img/porridge.jpg";
 export function CreateMenu(){
     const headmenu = document.createElement('div');
