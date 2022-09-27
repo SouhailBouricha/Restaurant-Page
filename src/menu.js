@@ -21,6 +21,7 @@ import honeycombsr from "./img/honeycomb.svg";
 import honeyTea from "./img/honeyTea.jpg";
 import bearyTea from "./img/bearyTea.jpg";
 import toast from "./img/toast.jpg";
+import fruit from "./img/fruit.jpg";
 export function CreateMenu(){
     const headmenu = document.createElement('div');
     headmenu.classList.add('head');
@@ -45,18 +46,22 @@ export function CreateMenu(){
 
     const menu1 = createMenu("Beverages",honeycombsr);
     const menu2 = createMenu("Sides",honeycombsr);
+    const menu3 = createMenu("Main Dishes",honeycombsr);
 
     content.appendChild(menu1);
     
     const first_product = createProduct("Honey Tea","A warm, sweet tea made with the highest quality honey and a bit oflemon to start your day off right!","$2",honeyTea,beesr);
     const seconde_product = createProduct("Beary Tea","A comforting, almost filling, tea that is infused with the flavors of several kinds of berries. Best served cold, but can be served hot on request.","$3",bearyTea,beesr);
     const terth_product = createProduct("Toast and Jam","A slice of toast, your choice of bread, and our homemade blackberry or raspberry jam.","$1",toast,beesr);
+    const forth_product = createProduct("Fresh Fruit","A small bowl of fresh fruit, whatever we find at the market for the day.","$3",fruit,beesr);
     
     
     content.appendChild(first_product);
     content.appendChild(seconde_product);
     content.appendChild(menu2);
     content.appendChild(terth_product);
+    content.appendChild(forth_product);
+    content.appendChild(menu3);
 }
 function createProduct(ProductNameText,ProductparaText,priceLabelText,mainImg,beesr){
     const product = document.createElement('div');
